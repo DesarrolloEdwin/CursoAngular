@@ -24,5 +24,8 @@
             </mat-autocomplete>
           </mat-form-field>
     </div>
+    <div *ngIf="heroeSeleccionado">
+        <app-heroe-tarjeta [heroe]="heroeSeleccionado"></app-heroe-tarjeta>
+    </div>
 </div>
   
